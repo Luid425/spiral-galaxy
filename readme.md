@@ -1,5 +1,7 @@
 # Spiral Galaxy
 
+![My Image](static/spiral-galaxy.png)
+
 This project allows you to create your own spiral galaxy in your browser.
 
 Enjoy it!!
