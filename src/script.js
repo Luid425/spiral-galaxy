@@ -18,19 +18,19 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-let preset = {};
-const memo = {
-  savePreset() {
-    // save current values to an object
-    preset = gui.save();
-    loadButton.enable();
-  },
-  loadPreset() {
-    gui.load(preset);
-  },
-};
-gui.add(memo, "savePreset");
-const loadButton = gui.add(memo, "loadPreset").disable();
+// let preset = {};
+// const memo = {
+//   savePreset() {
+//     // save current values to an object
+//     preset = gui.save();
+//     loadButton.enable();
+//   },
+//   loadPreset() {
+//     gui.load(preset);
+//   },
+// };
+// gui.add(memo, "savePreset");
+// const loadButton = gui.add(memo, "loadPreset").disable();
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -42,15 +42,15 @@ const scene = new THREE.Scene();
  * Galaxy
  */
 const parameters = {};
-parameters.count = 10000;
-parameters.size = 0.01;
-parameters.radius = 5;
-parameters.branches = 3;
-parameters.spin = 1;
-parameters.randomness = 0.2;
-parameters.randomnessPower = 3;
-parameters.insideColor = "#ff6030";
-parameters.outsideColor = "#1b3984";
+parameters.count = 96400;
+parameters.size = 0.013;
+parameters.radius = 2.65;
+parameters.branches = 6;
+parameters.spin = 2.146;
+parameters.randomness = 1.144;
+parameters.randomnessPower = 3.579;
+parameters.insideColor = "#ee116f";
+parameters.outsideColor = "#111b8c";
 
 let geometry = null;
 let material = null;
