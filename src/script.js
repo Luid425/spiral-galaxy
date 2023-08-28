@@ -42,12 +42,12 @@ const scene = new THREE.Scene();
  * Galaxy
  */
 const parameters = {};
-parameters.count = 96400;
-parameters.size = 0.013;
-parameters.radius = 2.65;
+parameters.count = 346100;
+parameters.size = 0.011;
+parameters.radius = 8.59;
 parameters.branches = 6;
-parameters.spin = 2.146;
-parameters.randomness = 1.144;
+parameters.spin = 1;
+parameters.randomness = 0.526;
 parameters.randomnessPower = 3.579;
 parameters.insideColor = "#ee116f";
 parameters.outsideColor = "#111b8c";
