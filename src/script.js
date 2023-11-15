@@ -9,14 +9,16 @@ import * as dat from "lil-gui";
 // Debug
 const gui = new dat.GUI({
   width: 250,
-  title: "Galaxy Generator",
-}).open();
-window.addEventListener("keydown", (event) => {
-  if (event.key === "h") {
-    if (gui._hidden) gui.show();
-    else gui.hide();
-  }
-});
+  title: "Personnalise Ta Galaxy",
+}).close();
+
+
+// window.addEventListener("keydown", (event) => {
+//   if (event.key === "h") {
+//     if (gui._hidden) gui.show();
+//     else gui.hide();  
+//   }
+// });
 
 // let preset = {};
 // const memo = {
